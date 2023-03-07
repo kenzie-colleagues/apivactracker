@@ -1,12 +1,21 @@
 {
   "users": [
     {
-      "email": "joao@mail.com",
+      "email": "admvactracker@gmail.com",
       "password": "$2a$10$hpnIkTmknTrq8E2OE.ZgnOjJRUt7f1W5Zla8K/Dvn1wU4Q6UiqHUW",
       "name": "Joao da Silva",
       "dateOfBirth": "01/10/97",
       "CPF": "009888666321",
-      "is_admin": "false",
+      "isAdmin": "true",
+      "id": 0
+    },
+    {
+      "email": "percival@mail.com",
+      "password": "$2a$10$hpnIkTmknTrq8E2OE.ZgnOjJRUt7f1W5Zla8K/Dvn1wU4Q6UiqHUW",
+      "name": "Percival da Silva",
+      "dateOfBirth": "01/10/97",
+      "CPF": "009888666321",
+      "isAdmin": "false",
       "id": 1
     },
     {
@@ -15,7 +24,7 @@
       "name": "Maria da Silva",
       "dateOfBirth": "22/12/99",
       "CPF": "009888697621",
-      "is_admin": "false",
+      "isAdmin": "false",
       "id": 2
     },
     {
@@ -24,23 +33,16 @@
       "name": "Jose da Silva",
       "dateOfBirth": "12/09/99",
       "CPF": "123888697621",
-      "is_admin": "false",
+      "isAdmin": "false",
       "id": 3
-    },
-    {
-      "email": "neto@mail.com",
-      "password": "$2a$10$xCfK2qKoylVqmnfx4vFQpOWXVRNKfauwnfmGePz0f0K7rMEXIkcNS",
-      "name": "Neto",
-      "age": 40,
-      "id": 4
     }
   ],
   "vaccines": [
     {
       "name": "BCG",
-      "quantity": 3,
-      "price": 190,
-      "date": "10 de janeiro",
+      "quantity": 2,
+      "price": 100,
+      "date": "12 de janeiro",
       "information": "A vacina BCG é a vacina contra tuberculose e a principal maneira de prevenir que crianças contraiam a doença, principalmente nas formas graves. A tuberculose é uma doença grave transmitida pelo ar e pode atingir todos os órgãos do corpo, principalmente os pulmões.",
       "img": "https://uploaddeimagens.com.br/images/004/379/061/full/image_39_%282%29.png?1678129718",
       "id": 1
@@ -188,14 +190,7 @@
       "vaccineId": 1,
       "userId": 3,
       "id": 8
-    },
-    {
-      "name": "Abacaxi",
-      "data": "10 de fevereiro",
-      "img": "https://uploaddeimagens.com.br/images/004/379/061/full/image_39_%282%29.png?1678129718",
-      "vaccineId": 1,
-      "userId": 1,
-      "id": 9
     }
+   
   ]
 }
