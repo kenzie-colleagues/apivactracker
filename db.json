@@ -7,7 +7,6 @@
       "dateOfBirth": "01/10/97",
       "CPF": "009888666321",
       "is_admin": "false",
-      "vacAlreadyTaken":[],
       "id": 1
     },
     {
@@ -27,6 +26,13 @@
       "CPF": "123888697621",
       "is_admin": "false",
       "id": 3
+    },
+    {
+      "email": "neto@mail.com",
+      "password": "$2a$10$xCfK2qKoylVqmnfx4vFQpOWXVRNKfauwnfmGePz0f0K7rMEXIkcNS",
+      "name": "Neto",
+      "age": 40,
+      "id": 4
     }
   ],
   "vaccines": [
@@ -121,14 +127,75 @@
       "id": 10
     }
   ],
-  
-  "vacAlreadyTaken": [
+  "userVaccines": [
     {
-      "name": "",
-      "data": "",
-      "img": "",
-      "user_id": 2,
-      "vaccine_id": 1
+      "name": "Gripe",
+      "data": "10 de fevereiro",
+      "img": "https://uploaddeimagens.com.br/images/004/379/061/full/image_39_%282%29.png?1678129718",
+      "vaccineId": 1,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "vaccineId": 1,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "name": "Gripe",
+      "data": "10 de fevereiro",
+      "img": "https://uploaddeimagens.com.br/images/004/379/061/full/image_39_%282%29.png?1678129718",
+      "vaccineId": 1,
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "Gripe",
+      "data": "10 de fevereiro",
+      "img": "https://uploaddeimagens.com.br/images/004/379/061/full/image_39_%282%29.png?1678129718",
+      "vaccineId": 1,
+      "userId": 3,
+      "id": 4
+    },
+    {
+      "name": "Gripe",
+      "data": "10 de fevereiro",
+      "img": "https://uploaddeimagens.com.br/images/004/379/061/full/image_39_%282%29.png?1678129718",
+      "vaccineId": 1,
+      "userId": 3,
+      "id": 5
+    },
+    {
+      "name": "Gripe",
+      "data": "10 de fevereiro",
+      "img": "https://uploaddeimagens.com.br/images/004/379/061/full/image_39_%282%29.png?1678129718",
+      "vaccineId": 1,
+      "userId": 3,
+      "id": 6
+    },
+    {
+      "name": "Gripe",
+      "data": "10 de fevereiro",
+      "img": "https://uploaddeimagens.com.br/images/004/379/061/full/image_39_%282%29.png?1678129718",
+      "vaccineId": 1,
+      "userId": 3,
+      "id": 7
+    },
+    {
+      "name": "Gripe",
+      "data": "10 de fevereiro",
+      "img": "https://uploaddeimagens.com.br/images/004/379/061/full/image_39_%282%29.png?1678129718",
+      "vaccineId": 1,
+      "userId": 3,
+      "id": 8
+    },
+    {
+      "name": "Abacaxi",
+      "data": "10 de fevereiro",
+      "img": "https://uploaddeimagens.com.br/images/004/379/061/full/image_39_%282%29.png?1678129718",
+      "vaccineId": 1,
+      "userId": 1,
+      "id": 9
     }
   ]
 }
